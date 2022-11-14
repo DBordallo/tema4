@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         //ejercicio if
         System.out.println("el número");
-        double numerolf = 2;
+        double numerolf = -2;
 
         if (numerolf > 0) {
             System.out.println("es positivo");
@@ -41,7 +41,7 @@ public class Main {
 
         // ejercicio switch
         {
-            var estacion = "INVIERNO";
+            var estacion = "PRIMAVERA";
 
         switch (estacion) {
             case "VERANO":
@@ -55,6 +55,7 @@ public class Main {
                 break;
             case "PRIMAVERA":
                 System.out.println("es primavera");
+                break;
             default:
                 System.out.println("no sé la estación");
 
